@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dip"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/lblListName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="17sp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft" />
+    <CheckBox
+        android:id="@+id/lblCheckBox"
+        android:text="@string/pwm_chkbx_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="wrap_content"
+        android:layout_weight="3" >
+        <TextView
+            android:id="@+id/lblEditTextLabel"
+            android:text="@string/pwm_edittext_label"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft" />
+        <EditText
+            android:id="@+id/lblEditText"
+            android:hint="@string/pwm_edit_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:inputType="number"
+            android:ems="10"
+            android:imeOptions="actionDone"/>
+    </LinearLayout>
+    <SeekBar
+        android:id="@+id/lblListSlider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="?android:attr/expandableListPreferredChildPaddingLeft"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Gateworks Demo</string>
+    <string name="radio1">input</string>
+    <string name="radio2">output</string>
+    <string name="pwm_edit_txt">Period (ms)</string>
+    <string name="pwm_toggle_on">inverse</string>
+    <string name="pwm_toggle_off">normal</string>
+    <string name="pwm_chkbx_txt">Enable</string>
+    <string name="pwm_edittext_label">Period(ms):</string>
+    <string name="led_spinner_label">Trigger:</string>
+</resources>
